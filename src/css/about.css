@@ -1,0 +1,314 @@
+/*
+====================================================================
+	                        Safewox ABOUT
+====================================================================
+*/
+
+@import url(/src/app.css);
+
+#about .wrapper {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Assets/Mask\ group-1.png);
+    background-position: center;
+    background-size: cover;
+}
+
+/*
+====================================================================
+	Hero Section
+====================================================================
+*/
+#about .hero {
+    height: 500px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+#about .hero .head {
+    text-align: center;
+    width: 30%;
+}
+
+#about .hero .head .semi-heading {
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--turquoise);
+    padding-block: 2rem;
+}
+
+#about .hero .head h1 {
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--white);
+    line-height: 122.5%;
+}
+
+/*
+====================================================================
+	Section-1
+====================================================================
+*/
+#about .section1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 100px;
+}
+
+#about .section1 img {
+    width: 591px;
+    height: 592.68px;
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+}
+
+#about .section1 .eclipse-2 {
+    position: absolute;
+    z-index: -1;
+    width: 18.5625rem;
+    height: 26.5625rem;
+    bottom: -700px;
+    left: -10px;
+}
+
+#about .section1 .txt {
+    margin-top: 70px;
+    width: 50%;
+}
+
+#about .section1 .txt .semi-heading {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--turquoise);
+}
+
+#about .section1 .txt h1 {
+    width: 80%;
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 144.5%;
+    margin-bottom: 16px;
+}
+
+#about .section1 .txt p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--light-grey);
+    text-align: left;
+}
+
+#about .section1 .txt p>span {
+    display: block;
+    margin-bottom: 27px;
+}
+
+#about .section1 .txt .btn {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/*
+====================================================================
+	Section-2
+====================================================================
+*/
+#about .section2 {
+    padding: 0 100px;
+}
+
+#about .section2 .txt {
+    position: relative;
+    margin-inline: 1rem;
+}
+
+#about .section2 .head {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#about .section2 .head .semi-heading {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--turquoise);
+}
+
+#about .section2 .head h1 {
+    font-size: 39px;
+    font-weight: 600;
+    line-height: 56.36px;
+}
+
+#about .section2 .txt::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 100%;
+    border: dashed 2px var(--ash);
+}
+
+#about .section2 .txt .point {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#about .section2 .txt .point:nth-child(2n+2) {
+    flex-direction: row-reverse;
+    margin: 100px 0;
+}
+
+#about .section2 .txt .dot::before {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--ash);
+}
+
+#about .section2 .txt .point .contxt h1 {
+    font-weight: 400;
+    font-size: 48px;
+}
+
+#about .section2 .txt .point p {
+    font-weight: 300;
+    width: 441px;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--light-grey);
+}
+
+#about .section2 .txt .point img {
+    width: 432px;
+}
+
+/*
+====================================================================
+	Section-3
+====================================================================
+*/
+#about .section3 {
+    height: 452px;
+    margin: 100px 100px;
+    border-radius: 30px;
+    /* background: url(/Assets/support\ bg.png); */
+    background-color: #262360;
+    background-position: center;
+    background-size: cover;
+    padding: 20px 44px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#about .section3 .txt h1 {
+    width: 550px;
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 129.5%;
+    color: var(--white);
+    margin-bottom: 20px;
+}
+
+#about .section3 .txt p {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    color: var(--white);
+    width: 485px;
+}
+
+#about .section3 form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 57px 57px 57px 57px;
+    grid-gap: 20px;
+    width: 620px;
+    height: fit-content;
+    margin-top: 20px;
+    position: relative;
+}
+
+#about .section3 form input {
+    height: 57px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0 25px;
+    outline: none;
+    border: none;
+}
+
+#about .section3 form select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    grid-column: span 2;
+    height: 57px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #606060B2;
+    padding: 0 20px;
+    outline: none;
+    border: none;
+}
+
+#about .section2 form::before {
+    content: '';
+    position: absolute;
+    width: 14px;
+    height: 9.33px;
+    background-image: url(/Assets/arrow.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    right: 0;
+}
+
+#about .section3 form input:nth-child(6) {
+    grid-column: span 2;
+}
+
+#about .section3 form .btn {
+    width: 197px;
+    height: 60px;
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--turquoise);
+    background: var(--white);
+    border: none;
+    justify-self: center;
+    grid-column: span 2;
+}
+
+/* 
+===========================================
+         MEDIA QUERY
+===========================================            
+*/
+
+@media screen and (max-width: 787px) {
+    #about .section1 .eclipse-2{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 1454px) {
+    #service .section1 .card .img .ill {
+        max-width: 550px;
+    }
+
+    #service .section1 .card .img .eclipse {
+        bottom: -100px;
+        left: -100px;
+    }
+    
+}
