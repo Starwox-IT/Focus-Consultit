@@ -100,6 +100,7 @@ section .icon-wrapper .container-fit {
     font-size: 16px;
     color: #828282;
     margin-bottom: 40px;
+    
 }
 
 #contact section .contact-wrapper .flex {
@@ -120,6 +121,7 @@ section .icon-wrapper .container-fit {
     font-size: 17px;
     color: #4F4F4F;
 }
+
 
 #contact section .contact-wrapper .input-wrapper input {
     font-size: 17px;
@@ -149,4 +151,29 @@ section .icon-wrapper .container-fit {
     justify-self: center;
     grid-column: span 2;
 
+}
+
+
+/* 
+======================================
+      PROPOSED MEDIA QUERY
+======================================
+*/
+
+@media screen and (max-width: 1131px) {
+    #contact section .icon-wrapper .image-container img {
+        width: 460px;
+    }    
+}
+
+@media screen and (max-width: 1025px) {
+    #contact section .icon-wrapper .image-container img {
+        width: 460px;
+        display: none;
+    }    
+}
+@media screen and (max-width: 360px) {
+    #contact section .contact-wrapper .flex .txt-display span{
+        font-size: 10px !important;
+    }
 }

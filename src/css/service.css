@@ -13,7 +13,7 @@
 }
 
 /*
-====================================================================
+====================================================================    
 	Hero Section
 ====================================================================
 */
@@ -131,7 +131,7 @@
     height: 475px;
     margin: 100px 100px;
     border-radius: 30px;
-    background: url(/Assets/background-2.png);
+    background: url(/Assets/Group\ 2046.png);
     background-position: center;
     background-size: cover;
     padding: 20px 44px;
@@ -180,6 +180,22 @@
     #service .section1 .card {
         padding: 100px 56px 120px;
     }
+}
+
+@media screen and (max-width: 450px) {
+    #service .section1 .card:nth-child(2n+2){
+        padding: 22px 20px 50px !important;
+    }
+    #service .section2{
+        margin: 0 0 30px 0 !important;
+    }
+    #service .section1 .card{
+        padding: 22px 20px 50px !important;
+        gap: 3rem !important;
+    }
+    #service .section2 .txt img {
+        width: 200px;
+    } 
 }
 
 
