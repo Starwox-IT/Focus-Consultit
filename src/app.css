@@ -249,3 +249,15 @@ footer .middle .txt p {
     font-size: 14px;
     line-height: 24px;
 }
+
+
+/* 
+=============================
+        Media Query
+=============================
+*/
+@media screen and (max-width: 768px) {
+    nav .btn {
+        background: linear-gradient(to right, #92d2fd, #43c5f9, #20d2ff) !important;
+    }
+}

@@ -269,7 +269,7 @@
 }
 
 #home .section3 .d-1 {
-    left: 898px;
+    left: 834px;
     top: 575px;
 }
 
@@ -297,6 +297,9 @@
 #home .section3 .cards {
     display: flex;
     justify-content: space-between;
+    background: url(/Assets/blur\ Ellipse.png);
+    background-position: center;
+    background-size: cover;
 }
 
 
@@ -517,11 +520,25 @@
     }
 }
 
+@media screen and(max-width: 1350px) {
+    #home .section3 .d-1 {
+        left: 820px;
+    }
+}
+
+
 @media screen and(max-width: 1320px) {
     #home .section3 .d-1 {
         left: 803px !important;
     }
 }
+
+@media screen and(max-width: 1300px) {
+    #home .section3 .d-1 {
+        left: 735px !important;
+    }
+}
+
 @media screen and (max-width: 1200px) {
     #home .section3 .d-1, #home .section3 .d-2  {
         display: none !important;
@@ -545,6 +562,10 @@
     #home .section3 .cards .single-row1 {
         margin-right: 0;
         bottom: 30px;
+    }
+
+    #home .section3 .cards {
+        background: none;
     }
 }
 
