@@ -572,7 +572,9 @@
 @media screen and (max-width: 430px) {
     #home .section5 .flex .container .txt .con .cons {
         font-size: 12px !important;
+        width: 215px !important;
     }
+
 
     #home .section3 .head p {
         margin-bottom: 29px;
