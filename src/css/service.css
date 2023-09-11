@@ -128,7 +128,7 @@
 ====================================================================
 */
 #service .section2 {
-    height: 475px;
+    height: 526px;
     margin: 100px 100px;
     border-radius: 30px;
     background: url(/Assets/Group\ 2046.png);
@@ -140,7 +140,7 @@
 }
 
 #service .section2 .txt h1 {
-    width: 550px;
+    width: 474px;
     font-weight: 600;
     font-size: 39px;
     line-height: 129.5%;

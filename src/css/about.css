@@ -315,6 +315,27 @@
     }
 }
 
+@media screen and (max-width: 1244px) {
+    #about .section3 form {
+        grid-template-columns: 230px 230px;
+    }
+}
+
+@media screen and (max-width: 1151px) {
+    #about .section3 form {
+        grid-template-columns: 200px 200px;
+        width: 65%;
+    }
+}
+
+/* @media screen and (max-width: 916px) {
+    #about .section3 form {
+        grid-template-columns: 150px 150px !important;
+        width: 50%;
+    }
+} */
+
+
 
 @media screen and (max-width: 1090px) {
     
