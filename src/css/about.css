@@ -387,6 +387,12 @@
     }
 }
 
+@media screen and (max-width: 1000px) {
+    #about .section3 {
+        height: 545px;
+    }   
+}
+
 @media screen and (max-width: 400px) {
     #about .section3 .txt img {
         width: 90%;
