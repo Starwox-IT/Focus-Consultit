@@ -439,9 +439,8 @@
     
 }
 
-#home .section5 .flex .container .txt:nth-child(1),
-#home .section5 .flex .container .txt:nth-child(2) {
-    margin-bottom: 50px;
+#home .section5 .flex .container .txt {
+    margin-bottom: 45px;
 }
 
 #home .section5 .flex .container .txt img {
@@ -551,6 +550,7 @@
         /* display: none !important; */
     }
 }
+
 
 @media screen and (max-width: 1024px) {
     #home .section3 .cards .single-row1 {
