@@ -349,6 +349,10 @@
     padding: 20px 44px 40px;
 }
 
+#home .section4 img {
+    width: 300px;
+}
+
 #home .section4 h1 {
     width: 550px;
     font-weight: 600;
@@ -445,7 +449,7 @@
 
 #home .section5 .flex .container .txt img {
     width: fit-content;
-    height: fit-content;
+    /* height: fit-content; */
 }
 
 #home .section5 .flex .container .txt hr {
