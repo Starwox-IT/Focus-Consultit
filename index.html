@@ -5,6 +5,9 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Focusconsultit</title>
+  <!-- AOS CDN -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- other links -->
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" type="text/css" media="screen" href="/src/css/home.css" />
   <link rel="stylesheet" type="text/css" media="screen" href="/src/css/responsive.css" />
@@ -73,25 +76,25 @@
   </div>
 
   <div class="section1">
-    <div class="img">
+    <div data-aos="fade-up" data-aos-duration="1300" class="img">
       <img class="ill" src="/Assets/Layer 0.png" alt="" />
       <!-- <img class="eclipse" src="/Assets/Ellipse.png" alt="" /> -->
     </div>
-    <div class="txt">
+    <div data-aos="fade-left" data-aos-duration="900" class="txt">
       <p class="semi-heading">About FOCUSCONSULTIT</p>
-      <h1>When a background worker is needed, we are available</h1>
-      <p>
+      <h1 data-aos="fade-left" data-aos-duration="1100">When a background worker is needed, we are available</h1>
+      <p data-aos="fade-left" data-aos-duration="1150">
         We are dedicated to delivering unparalleled technology solutions that empower businesses to excel in the
         fiercely competitive tech industry. Whether you're a startup poised for innovation or an established enterprise
         seeking optimization, our specialized expertise guarantees tailored solutions aligned with your unique goals.
       </p>
       <a href="/about.html">
-        <div class="btn">Discover More</div>
+        <div data-aos="fade-left" data-aos-duration="1300"  class="btn">Discover More</div>
       </a>
     </div>
   </div>
 
-  <div class="section2">
+  <div data-aos="fade-up" class="section2">
     <div class="head">
       <p class="semi-heading">Service</p>
       <h1>What We Offer</h1>
@@ -156,54 +159,54 @@
     <img class="dotted d-1" src="Assets/dotted eclipse up.png" alt="">
     <img class="dotted d-2" src="Assets/dotted eclipse down.png" alt="">
     <div class="head">
-      <h1>
+      <h1 data-aos="zoom-in" data-aos-duration="1200">
         Why choose Us
       </h1>
-      <p>Elevating Your Business through Expert IT Consultation</p>
+      <p data-aos="zoom-in" data-aos-duration="1500">Elevating Your Business through Expert IT Consultation</p>
     </div>
     <div class="cards">
       <div class="single-row1 ry">
-        <div class="card">
-          <div class="icon">
+        <div  data-aos="fade-down-right" data-aos-duration="1000" class="card">
+          <div data-aos="fade-down-right" data-aos-duration="1200" class="icon">
             <img src="Assets/vetted.png" alt="">
           </div>
-          <h4>TRAINED AND VETTED</h4>
-          <p>
+          <h4 data-aos="fade-down-right" data-aos-duration="1500">TRAINED AND VETTED</h4>
+          <p data-aos="fade-down-right" data-aos-duration="1700">
             We've carefully chosen our
             team for you after extensive training and screening. Your
             responsibilities will be handled
             by a team of seasoned professionals.
           </p>
         </div>
-        <div class="card">
-          <div class="icon">
+        <div  data-aos="fade-up-right" data-aos-duration="1000" class="card">
+          <div data-aos="fade-up-right" data-aos-duration="1300" class="icon">
             <img src="Assets/guaranteed.png" alt="">
           </div>
-          <h4>GUARANTEED TIMELY DELIVERY
+          <h4 data-aos="fade-up-right" data-aos-duration="1700">GUARANTEED TIMELY DELIVERY
           </h4>
-          <p>
+          <p data-aos="fade-up-right" data-aos-duration="2000">
             Our follow-up procedure for all trained workers ensures that the service providers will give a personalised,
             professional service to you on time.
           </p>
         </div>
       </div>
       <div class="single-row2 ry">
-        <div class="card">
-          <div class="icon">
+        <div  data-aos="fade-down" data-aos-duration="1000" class="card">
+          <div data-aos="fade-down" data-aos-duration="1200" class="icon">
             <img src="Assets/enhanced.png" alt="">
           </div>
-          <h4>ENHANCED EFFICIENCY</h4>
-          <p>
+          <h4 data-aos="fade-down" data-aos-duration="1500">ENHANCED EFFICIENCY</h4>
+          <p data-aos="fade-down" data-aos-duration="1700">
             We free up your time from screening and monitoring remote workers. Focus on your other
             priorities without the stress.
           </p>
         </div>
-        <div class="card">
-          <div class="icon">
+        <div  data-aos="fade-up" data-aos-duration="1000" class="card">
+          <div data-aos="fade-up" data-aos-duration="1300" class="icon">
             <img src="Assets/post.png" alt="">
           </div>
-          <h4>POST SERVICE RELATIONSHIP</h4>
-          <p>
+          <h4 data-aos="fade-up" data-aos-duration="1700">POST SERVICE RELATIONSHIP</h4>
+          <p data-aos="fade-up" data-aos-duration="2000">
             Keep in touch with your customers even after you've finished serving them, and
             be open to their criticism
             and complaints.
@@ -336,6 +339,10 @@
     </div>
   </footer>
 
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   <script>
     // Owlcarousel
     $(document).ready(function () {

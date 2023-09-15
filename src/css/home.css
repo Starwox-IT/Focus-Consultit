@@ -86,7 +86,8 @@
     justify-content: space-between;
     padding-right: 100px;
     margin: 70px 0 100px;
-    /* overflow: hidden; */
+    overflow: hidden;
+    gap: 4rem;
 }
 
 #home .section1 .img {
@@ -99,6 +100,7 @@
     z-index: 999;
     position: absolute;
     padding-right: 5rem;
+    width: 540px;
 }
 
 /* #home .section1 .img .eclipse {
@@ -148,6 +150,7 @@
 #home .section2 {
     position: relative;
     margin-bottom: 100px;
+    /* overflow-x: hidden; */
 }
 
 .owl-carousel .owl-nav button.owl-next,
@@ -253,6 +256,7 @@
     padding: 0 100px;
     position: relative;
     margin: 170px 0;
+    /* overflow-x: hidden; */
 }
 
 #home .section3 .vec {
@@ -316,6 +320,7 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    /* overflow-x: hidden; */
 }
 
 #home .section3 .cards .card {
