@@ -12,7 +12,7 @@
     --turquoise: #43E1FC;
     /* --orange: #F9A543; */
     --white: #ffff;
-    --grey: #191919;
+    --burgundy: #262360;
     --light-grey: #969892;
     --ash: #D9D9D9;
 }
@@ -164,7 +164,7 @@ nav .ham-menu .line:nth-child(2) {
 */
 footer {
     height: 309px;
-    background: var(--grey);
+    background: var(--burgundy);
     color: var(--white);
     display: flex;
     flex-direction: column;
