@@ -331,7 +331,13 @@
 }
 @media (max-width: 790px) {
     #home .section3 .cards .card {
-        width: 232px;
+        width: 300px;
+    }
+}
+
+@media (max-width: 595px) {
+    #home .section3 .cards .card {
+        width: 270px;
     }
 }
 
@@ -344,7 +350,7 @@
 @media (max-width: 768px) {
 
     #home .wrapper {
-        background-position: right;
+        background-position: bottom;
     }
 
     #home .hero {
@@ -445,7 +451,7 @@
     }
 
     #home .section3 .cards .card {
-        width: 310px;
+        width: 300px;
     }
 
     #home .section4 {

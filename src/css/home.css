@@ -85,9 +85,9 @@
     padding: 100px 0;
     justify-content: space-between;
     padding-right: 100px;
-    margin: 70px 0 100px;
+    margin: 50px 0 100px;
     overflow: hidden;
-    gap: 4rem;
+    gap: 6rem;
 }
 
 #home .section1 .img {
@@ -100,7 +100,7 @@
     z-index: 999;
     position: absolute;
     padding-right: 5rem;
-    width: 540px;
+    width: 493px;
 }
 
 /* #home .section1 .img .eclipse {
@@ -120,16 +120,16 @@
 }
 
 #home .section1 .txt h1 {
-    font-size: 39px;
+    font-size: 34px;
     font-weight: 600;
-    line-height: 56.36px;
-    margin-bottom: 38px;
-    width: 79%;
+    line-height: 48.36px;
+    margin-bottom: 14px;
+    width: 71%;
 }
 
 #home .section1 .txt p {
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 15px;
+    font-weight: 300;
     line-height: 30px;
     color: var(--light-grey);
     text-align: left;
@@ -240,7 +240,7 @@
 
 #home .section2 .cards .card p {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px;
     color: var(--light-grey);
 }
