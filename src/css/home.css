@@ -358,16 +358,16 @@
 ====================================================================
 */
 #home .section4 {
-    /* height: 452px; */
     margin: 0 100px;
     border-radius: 30px;
-    background: url(/Assets/Frame\ 100.png);
-    background-position: center;
-    background-size: cover;
+    background: url(/Assets/Frame-100.png);
+    background-position:center 50%;
+    background-size: cover ;
+    background-repeat: no-repeat;
     padding: 20px 44px 40px;
 }
 
-#home .section4 img {
+#home .section4 .section4-logo {
     width: 300px;
 }
 
