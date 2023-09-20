@@ -97,7 +97,8 @@ nav .ham-menu {
 }
 
 .ham-menu {
-    background: linear-gradient(290deg, #92d2fd, #74d8ff, #20d2ff);
+    background: transparent;
+    /* background: linear-gradient(290deg, #92d2fd, #74d8ff, #20d2ff); */
     border-radius: 10px;
     border: none;
     cursor: pointer;
