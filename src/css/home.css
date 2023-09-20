@@ -5,7 +5,7 @@
 */
 
 @import url(/src/app.css);
-
+#home .section2 .cards
 #home .wrapper {
     background-image: linear-gradient(90deg, rgba(38, 35, 96, 0.85) 40.96%, rgba(38, 35, 96, 0.00) 100%), url(/Assets/african-american-helpline-employee-working-call-center-reception-with-multiple-monitors-male-operator-using-telecommunication-help-clients-customer-service-support-remote-network_482257-44585\ 1.png);
     background-position: bottom;
@@ -150,15 +150,18 @@
 #home .section2 {
     position: relative;
     margin-bottom: 100px;
-    /* overflow-x: hidden; */
+    width: 95%;
+    overflow-x: hidden;
+    margin: 0 auto;
+    z-index: 1;
 }
 
-.owl-carousel .owl-nav button.owl-next,
+/* .owl-carousel .owl-nav button.owl-next,
 .owl-carousel .owl-nav button.owl-prev{
     display: none;
-}
+} */
 
-.section2::before {
+/* .section2::before {
     content: '';
     width: 10%;
     height: 100%;
@@ -167,9 +170,9 @@
     position: absolute;
     background: url(/Assets/fade.png);
     background-size: cover;
-}
+} */
 
-.section2::after {
+/* .section2::after {
     content: '';
     width: 10%;
     height: 100%;
@@ -179,7 +182,7 @@
     position: absolute;
     background: url(/Assets/fade2.png);
     background-size: cover;
-}
+} */
 
 #home .section2 .head {
     text-align: center;
@@ -198,15 +201,15 @@
     line-height: 56.36px;
 }
 
-#home .section2 .cards {
+/* #home .section2 .cards {
     height: 350px;
-}
+} */
 
 #home .section2 .cards .card {
     margin-right: 50px;
     position: relative;
     width: 360px;
-    height: 295px;
+    height: 75%;
     margin-top: 40px;
     padding: 0 20px;
     background: var(--white);
@@ -217,6 +220,15 @@
     flex-direction: column;
     align-items: center;
     padding-top: 70px;
+}
+
+.main-service{
+    display: flex;
+    text-align: center;
+    margin-bottom: 40px;
+    width: 100%;
+    z-index: 1;
+    height: 400px;
 }
 
 #home .section2 .cards .card .icon {
@@ -305,6 +317,8 @@
     background-position: center;
     background-size: cover;
 }
+
+
 
 
 #home .section3 .cards .single-row1 {
